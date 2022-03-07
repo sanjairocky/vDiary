@@ -14,7 +14,7 @@ module.exports = {
   output: {
     filename: "js/[name].bundle.js",
     path: path.resolve(__dirname, "dist"), // base path where to send compiled assets
-    publicPath: "/", // base path where referenced files will be look for
+    publicPath: "", // base path where referenced files will be look for
     pathinfo: false,
   },
   resolve: {
